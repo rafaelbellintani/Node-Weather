@@ -8,7 +8,7 @@ window.onload = function() {
         e.preventDefault()   
         messageOne.textContent = "Loading weather..."
         messageTwo.textContent = ''
-        fetch('http://localhost:3000/weather?address='+searchValue.value).then((response)=>{
+        fetch('/weather?address='+searchValue.value).then((response)=>{
             response.json().then((data)=>{
                 console.log(data)
             if(data.error){
