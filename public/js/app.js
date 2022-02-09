@@ -16,7 +16,7 @@ window.onload = function() {
                 messageTwo.textContent = data.error
             }else{
                 messageOne.textContent = ''
-                messageTwo.textContent = data.forecast + ' on ' + data.location + ". The temperature is " + data.temperature + "ºC"
+                messageTwo.textContent = data.forecast + ' in ' + data.location + ". The temperature is " + data.temperature + "ºC"
             }
             })
         })
