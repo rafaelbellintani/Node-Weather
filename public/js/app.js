@@ -1,7 +1,3 @@
-
-
-
-
 window.onload = function() {
     const searchForm = document.querySelector('form')
     const searchValue = document.querySelector('input')
